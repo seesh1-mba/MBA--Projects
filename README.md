@@ -153,3 +153,75 @@ Data analysis report written in R Markdown, integrating:
 ## 💬 Notes
 All files were developed as part of my coursework in analytics and visualization. They reflect a hands-on understanding of BI tools, dashboarding principles, and R-based reporting.
 
+
+
+# 📊 Power BI Dashboards & Excel Data Prep – Shreyas Eesh
+
+This repository features a series of Power BI dashboards and Excel data transformation assignments completed as part of my MBA analytics coursework. Each project demonstrates strong business intelligence, dashboard storytelling, and data modeling proficiency.
+
+---
+
+## 📁 Project Overview
+
+### 1. 🏁 Final Project – Business Dashboard  
+**File:** `FInal Project_aena and shreyas (1)-1(1).pbix`  
+Built for executive review, this end-to-end Power BI dashboard covers key metrics in sales, customer segmentation, and financial trends using slicers, multi-page navigation, and KPI cards.
+
+---
+
+### 2. 📉 Midterm Dashboard – Sales Overview  
+**File:** `MID TERM Power BI_Shreyas(1).pbix`  
+Displays product-wise and region-wise performance with calculated columns and interactive drill-through functionality. Ideal for mid-level sales monitoring.
+
+---
+
+### 3. 📦 Product & Profitability Analysis  
+**File:** `Shreyas_Assignment(1).pbix`  
+Category and segment-based sales breakdown with custom DAX metrics for profitability and performance comparison.
+
+---
+
+### 4. 🏗️ Supply Chain Dashboard  
+**File:** `shreyaseesh_M5.pbix`  
+Focuses on inventory turnover, reorder frequency, and product lifecycle tracking using time intelligence in Power BI.
+
+---
+
+### 5. 📊 Intro to Visualization Techniques  
+**File:** `Week3_Shreyas1(1).pbix`  
+Explores Power BI basics such as matrix views, slicers, bar and line charts, and simple DAX measures.
+
+---
+
+### 6. 🧠 Workshop Project  
+**File:** `Workshop 1 PowerBi.pbix`  
+Built during a Power BI training workshop. Showcases tooltip layering, slicer syncing, page bookmarks, and visual grouping techniques.
+
+---
+
+### 7. 📑 Excel Data Prep – Holdings Report  
+**File:** `annotated-Funds Data Working with Excel -1_shreyas eesh.xlsx.pdf`  
+Cleans and restructures fund holdings using advanced Excel logic (VLOOKUP, IFERROR, IF(OR), CONCAT). Prepares raw asset data for seamless import into Power BI.
+
+---
+
+## 🔧 Skills Demonstrated
+- Data Modeling & Relationships  
+- DAX Measures & Calculated Columns  
+- Interactive Visualizations (Cards, Maps, Charts)  
+- Filters, Drill-throughs, and Bookmarks  
+- Excel Formulas: IF, OR, IFERROR, VLOOKUP, CONCAT
+
+---
+
+## 👤 Author
+**Shreyas Eesh**  
+🎓 MBA | Business Analytics & Data Visualization  
+📍 Hillsboro, OR  
+🌐 [Portfolio](https://seesh.carrd.co) | [LinkedIn](https://linkedin.com/in/shreyas-eesh)
+
+---
+
+## 💬 Notes
+These files represent coursework submissions and workshop outputs from my business analytics journey. They demonstrate real-world Power BI dashboarding and Excel data prep techniques applied to business use cases.
+
