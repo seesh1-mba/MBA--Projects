@@ -1,0 +1,91 @@
+---
+title: "Shreyas Eesh Data Visualization Final Exam"
+output:
+  flexdashboard::flex_dashboard:
+  orientation: columns
+  vertical_layout: fill
+runtime: shiny
+---
+
+
+
+```{r}
+library(flexdashboard)
+library(shiny)
+library(tidyverse)
+
+
+#getwd()
+collegedata<-read.csv("college.csv",header = TRUE,sep = ",")
+CAcolleges<- collegedata %>%
+    filter(state=="CA")
+    view(CAcolleges)
+ library(maps) 
+    states <- map_data("state")
+CAstate<-states%>%filter(region=="california")
+```
+
+
+Page 1 {data-orientation=columns}
+===================================== 
+Input{.sidebar}
+----------------------------------------------------------------
+### User Input
+
+```{r}
+radioButtons(inputId= "control" ,label= "Control", choices= c("Private", "Public"))
+```
+
+Column
+----------------------------------------------------------------
+
+
+
+```{r}
+
+renderPlot(
+  ggplot(filter(CAcolleges, control == input$control), aes(x=name, y=undergrads))+
+      geom_bar(stat = "identity", width = 1, color ="blue", fill ="red")+
+            ggtitle("Population of Undergrads in Califorina")+
+            theme_classic()+
+            theme(axis.text.x=element_text(angle=45, hjust=1, size = 12))+ 
+            labs(x="College Name", y="Undergrad Population")
+            
+)
+```
+
+Page 2 {data-orientation=columns}
+=================
+Input{.sidebar}
+----------------------------------------------------------------
+### User Input
+```{r}
+radioButtons(inputId="controlP2", label="Operated_by" ,choices=c("Public","Private"))
+```
+Column
+----------------------------------------------------------------
+
+```{r}
+renderPlot(
+ggplot(CAstate, aes(x=long, y=lat)) + 
+geom_polygon(fill = "green", colour = "black",alpha=0.6) +
+coord_quickmap()+
+geom_point(filter(CAcolleges,control==input$controlP2), mapping= aes(x=lng, y=lat, cex=undergrads,color=control))+
+geom_text(filter(CAcolleges, control==input$controlP2), mapping= aes(x=lng, y=lat,label=name),cex=4,inherit.aes = FALSE,check_overlap = TRUE)+
+      scale_size_continuous()+
+    scale_color_discrete()+
+    theme_dark()+
+  ggtitle("California State Colleges")+
+  labs(cex="Undergrad Population",color="Operated by")
+
+)
+
+
+
+```
+
+
+
+
+
+
