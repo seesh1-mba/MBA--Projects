@@ -59,7 +59,7 @@ Basic R programming practice using the built-in `mtcars` dataset. Includes:
 
 ## 📎 Author
 **Shreyas Eesh**  
-📍 Hillsboro, OR  
+📍 Seattle, WA  
 🎓 MBA | Data & Business Analytics  
 🌐 [Portfolio](https://seesh.carrd.co) | [LinkedIn](https://linkedin.com/in/shreyas-eesh)
 
@@ -145,7 +145,7 @@ Data analysis report written in R Markdown, integrating:
 ## 👤 Author
 **Shreyas Eesh**  
 🎓 MBA | Data & Business Analytics  
-📍 Hillsboro, OR  
+📍 Seattle, WA  
 🌐 [Portfolio](https://seesh.carrd.co) | [LinkedIn](https://linkedin.com/in/shreyas-eesh)
 
 ---
@@ -217,7 +217,7 @@ Cleans and restructures fund holdings using advanced Excel logic (VLOOKUP, IFERR
 ## 👤 Author
 **Shreyas Eesh**  
 🎓 MBA | Business Analytics & Data Visualization  
-📍 Hillsboro, OR  
+📍 Seattle, WA 
 🌐 [Portfolio](https://seesh.carrd.co) | [LinkedIn](https://linkedin.com/in/shreyas-eesh)
 
 ---
