@@ -68,3 +68,88 @@ Basic R programming practice using the built-in `mtcars` dataset. Includes:
 ## 💡 Notes
 All projects were developed as part of my MBA coursework at the University of New Haven. Each script or document reflects hands-on work in data handling, statistical modeling, and visualization using R.
 
+
+
+# 📊 Tableau Dashboards & R Markdown Report – Shreyas Eesh
+
+This repository features my work in Tableau and R Markdown as part of data visualization and analytics coursework. It includes a range of interactive dashboards and reporting documents that demonstrate key data storytelling and business intelligence concepts.
+
+---
+
+## 📁 Tableau Projects
+
+### 1. 🟦 HW1 Dashboards
+**Files:** `HW1.twbx`, `HW1(1).twbx`, `HW1(2).twbx`  
+**Description:**  
+Intro-level dashboards exploring basic Tableau chart types:
+- Bar and line charts
+- Filters and slicers
+- Dashboard layout and labels
+- Entry-level KPI tracking
+
+---
+
+### 2. 📉 Bar Chart Visualization
+**File:** `barchart_tableau.twbx`  
+**Description:**  
+Custom bar chart visualization demonstrating:
+- Dynamic sorting
+- Color-coded categories
+- Calculated fields for label customization
+
+---
+
+### 3. 🗺️ Module 5 – Sales Dashboard
+**Files:** `HW_M5.twbx`, `HW_M5(1).twbx`  
+**Description:**  
+Advanced Tableau dashboards analyzing regional and categorical performance:
+- Interactive KPIs
+- Map visualizations
+- Category-wise sales and profit breakdown
+- Filters, actions, and drill-downs
+
+---
+
+### 4. 🧮 Tableau Exercises (Module 5)
+**Files:** `Module5Exercise_1_r1.twbx`, `Module5Exercise_2_r1.twbx`  
+**Description:**  
+Hands-on exercises applying advanced Tableau features:
+- Parameter controls and dynamic filters
+- Profitability analysis
+- Custom legends, shapes, and layout formatting
+
+---
+
+## 📑 R Markdown Report
+
+### 5. 📋 R Markdown Narrative Report
+**File:** `Shreyas Eesh(3).rmd`  
+**Description:**  
+Data analysis report written in R Markdown, integrating:
+- Code chunks for computation
+- Inline visualization (likely using `ggplot2`)
+- Interpretive narratives and formatted output
+- Structured insights and commentary
+
+---
+
+## 🔧 Tools & Skills Used
+- Tableau Public / Desktop  
+- R, RStudio  
+- `ggplot2`, `dplyr`, R Markdown  
+- Data storytelling and BI presentation  
+- KPI analysis and dashboard interaction
+
+---
+
+## 👤 Author
+**Shreyas Eesh**  
+🎓 MBA | Data & Business Analytics  
+📍 Hillsboro, OR  
+🌐 [Portfolio](https://seesh.carrd.co) | [LinkedIn](https://linkedin.com/in/shreyas-eesh)
+
+---
+
+## 💬 Notes
+All files were developed as part of my coursework in analytics and visualization. They reflect a hands-on understanding of BI tools, dashboarding principles, and R-based reporting.
+
